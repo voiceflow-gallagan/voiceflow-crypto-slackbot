@@ -13,7 +13,7 @@ Install and run the project:
 
 1. Clone this repo:
 ```
-git clone https://github.com/voiceflow-gallagan/voiceflow-crypto-slackbot.git
+git clone https://github.com/voiceflow-gallagan/voiceflow-crypto-slackbot.git && cd voiceflow-crypto-slackbot
 ```
 
 2. Install dependencies:
