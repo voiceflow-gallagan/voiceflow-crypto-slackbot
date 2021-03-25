@@ -27,7 +27,6 @@ const factory = new RuntimeClientFactory({
 
 const response = async (context: Context, userID: string, say: SayFn) => {
   await kvstore.set(userID, context.toJSON().state);
-  console.log(context.getTrace());
   // eslint-disable-next-line no-restricted-syntax
   for (const trace of context.getTrace()) {
     if (trace.type === TraceType.SPEAK) {
